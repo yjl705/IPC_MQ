@@ -12,6 +12,8 @@
 		1592344C28D0034700A46D44 /* receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1592344B28D0034700A46D44 /* receiver.cpp */; };
 		1592344E28D0056100A46D44 /* testForLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1592344D28D0056100A46D44 /* testForLibrary.cpp */; };
 		1592345128D1217E00A46D44 /* testForManualBuild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1592345028D1217D00A46D44 /* testForManualBuild.cpp */; };
+		15C40DC228D821820018B65A /* sender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C40DC128D821820018B65A /* sender.cpp */; };
+		15C40DC428D8218E0018B65A /* reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C40DC328D8218E0018B65A /* reader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,8 @@
 		1592344B28D0034700A46D44 /* receiver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = receiver.cpp; sourceTree = "<group>"; };
 		1592344D28D0056100A46D44 /* testForLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testForLibrary.cpp; sourceTree = "<group>"; };
 		1592345028D1217D00A46D44 /* testForManualBuild.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testForManualBuild.cpp; sourceTree = "<group>"; };
+		15C40DC128D821820018B65A /* sender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sender.cpp; sourceTree = "<group>"; };
+		15C40DC328D8218E0018B65A /* reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reader.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		1592342F28CFF3A900A46D44 = {
 			isa = PBXGroup;
 			children = (
+				15C40DC028D8215E0018B65A /* ShareMemory */,
 				1592343A28CFF3A900A46D44 /* IPC_MQ */,
 				1592343928CFF3A900A46D44 /* Products */,
 			);
@@ -74,6 +79,15 @@
 				1592344B28D0034700A46D44 /* receiver.cpp */,
 			);
 			path = IPC_MQ;
+			sourceTree = "<group>";
+		};
+		15C40DC028D8215E0018B65A /* ShareMemory */ = {
+			isa = PBXGroup;
+			children = (
+				15C40DC128D821820018B65A /* sender.cpp */,
+				15C40DC328D8218E0018B65A /* reader.cpp */,
+			);
+			path = ShareMemory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +150,9 @@
 				1592344728CFF57300A46D44 /* sender.cpp in Sources */,
 				1592344C28D0034700A46D44 /* receiver.cpp in Sources */,
 				1592345128D1217E00A46D44 /* testForManualBuild.cpp in Sources */,
+				15C40DC428D8218E0018B65A /* reader.cpp in Sources */,
 				1592343C28CFF3A900A46D44 /* main.cpp in Sources */,
+				15C40DC228D821820018B65A /* sender.cpp in Sources */,
 				1592344E28D0056100A46D44 /* testForLibrary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
